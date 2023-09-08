@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Todo - Inicio */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.25;
+}
+/* Todo - Fin */
+
+/* Encabezado - Inicio*/
+.Encabezado-Foto {
+	background: rgb(18,38,88);
+	background: radial-gradient(circle, rgba(18,38,88,1) 0%, rgba(18,27,85,1) 20%, rgba(14,17,88,1) 40%, rgba(30,36,119,1) 76%, rgba(115,121,163,1) 84%, rgba(255,255,255,1) 90%, rgba(23,16,87,1) 98%);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.Encabezado-Foto p{
+	font-size: 18px;
+}
+
+.Encabezado-Foto h1{
+	font-size: 50px;
+	padding: 15px 0;
+
+}
+/* Encabezado - Final*/
+
+/* Inicio - Inicio*/
+#Inicio {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#Caja-1 {
+    border: 1px solid #000000;
+    padding: 20px;
+    background-color: #f5f5f5;
+    flex: 2; 
+    margin: 5px 20px;
+}
+
+#Caja-2 {
+    border: 1px solid #000000;
+    padding: 20px;
+    background-color: #f5f5f5;
+    flex: 1;
+    margin: 5px 20px;
+}
+
+#fondo{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    padding: 50px 20px;
+}
+
+#Caja-2 h2{
+    margin: 0px 25px;
+    color: red;
+
+}
+
+#Caja-2 a {
+	color: rgb(0, 0, 0); 
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+#Caja-1 h2{
+	color: red; 
+}
+
+#Caja-1 p{
+	color: rgb(0, 0, 0);
+    margin: 10px 0px; 
+}
+/* Inicio - Final*/
+
+/* temas - Inicio*/
+#Temas1 {
+    border: 1px solid #000000;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.temas h2{
+    color:red;
+}
+
+.temas h3{
+    color:red;
+    margin: 20px 0px;
+}
+
+.temas p{
+    color:black;
+}
+
+#tabla1 {
+    border-collapse: collapse; 
+    border: 1px solid #000; 
+}
+
+#tabla1 th, #tabla1 td {
+    border: 1px solid #000; 
+    padding: 5px;
+    text-align: left; 
+}
+
+#tabla1 th {
+    color: red;
+
+}
+
+.texto11 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#foto11 {
+    width: 200px;
+    height: 75px;
+    margin: 0 10px; 
+}
+
+#foto12 {
+    width: 200px;
+    height: 80px;
+    margin: 0 10px; 
+}
+
+#foto13 {
+    width: 200px;
+    height: 80px;
+    margin: 0 10px; 
+}
+
+#foto14 {
+    width: 200px;
+    height: 80px;
+    margin: 0 10px; 
+}
+
+#foto15 {
+    width: 200px;
+    height: 90px;
+    margin: 0 10px; 
+}
+/* Temas- Final*/
+
+/* Carrusel de imagenes- inicio*/
+#Galeria1 {
+    border: 1px solid #000000;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#Galeria1 h3 {
+    color: red;
+    margin: 10px;
+}
+
+#Galeria11 {
+    display: flex;
+    width: 600px;
+    height: 430px;
+    margin: 10px 600px;
+}
+
+#Galeria11 img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 8;
+    transition: 2s ease;
+}
+
+#Galeria11 img:hover{
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+/* Carrusel de imagenes- Final*/
+
+/* Contacto - Inicio*/
+.Contacto1 {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-top: 20px;
+    padding: 30px; 
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);  
+}
+
+.Contacto1 h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.Contacto1 p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.Contacto1 a {
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.Contacto1 a i {
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+.Contacto1 form .haha,
+textarea {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.Contacto1 form textarea {
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+.Contacto1 .Enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: rgb(0, 0, 0);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* Contacto - Final*/
+
+/* Fin de la pagina - Inicio*/
+.Final-Pagina{
+    width: 100%;
+    background-color: #000000;
+}
+
+.Final-Pagina .grupo{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+
+.Final-Pagina .grupo .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Final-Pagina .grupo .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #000000;
+    margin-right: 10px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.Final-Pagina .grupo .red-social a img {
+    width: 80%; 
+    height: 80%; 
+}
+
+.Final-Pagina .grupo .box figure img{
+    width: 250px;
+}
+
+.Final-Pagina .derechos{
+    background-color: #040f4d;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Final-Pagina .derechos small{
+    font-size: 15px;
+}
+
+#Correo a {
+	color: rgb(255, 255, 255); 
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+.Final-Pagina .grupo .box h2{
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.Final-Pagina .grupo .box p{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+/* Fin de la pagina - Fin*/
